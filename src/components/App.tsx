@@ -1,5 +1,8 @@
 import React from 'react';
+import CardContainer from "./card-container";
 
-const App = () => (<div className='hello'>Hello World!</div>)
+const App = () => (<div>
+    <CardContainer/>
+</div>)
 
 export default App;
