@@ -23,6 +23,11 @@ const HeaderSearch = () => {
                     className='header-search__input'
                     placeholder='search something'
                     onChange={onChangeInput}
+                    onKeyPress={(e) => {
+                        if (e.key === "Enter") {
+                            onSearchGifs()
+                        }
+                    }}
                     value={search}
                 />
                 <button
