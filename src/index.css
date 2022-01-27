@@ -1,7 +1,9 @@
 :root {
     --color-dark: #0d1117;
     --color-card-bg: #21262D;
-    --color-border-card: #30363D
+    --color-border-card: #30363D;
+    --color-button-search: red;
+    --color-light: #ffff;
 }
 
 body {
@@ -11,13 +13,13 @@ body {
     background-color: var(--color-dark);
 }
 
-.content__container {
+.content-container {
     width: calc(100% - 100px);
     margin: 0 auto;
 }
 
 
-.card__container {
+.card-container {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -32,3 +34,48 @@ body {
     border-radius: 6px;
     height: 100px;
 }
+
+.header-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: var(--color-card-bg);
+}
+
+.header-search__input {
+    width: 360px;
+    background: #fff;
+    color: var(--color-card-bg);
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    padding: 10px 8px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.button-search {
+    background-color: var(--color-button-search);
+    color: var(--color-light);
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-70%, -50%);
+    display: inline-block;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+
+
+
