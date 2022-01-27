@@ -76,6 +76,14 @@ body {
     cursor: pointer;
 }
 
+.card-container__warning-text {
+    color: var(--color-light);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
 
 
 

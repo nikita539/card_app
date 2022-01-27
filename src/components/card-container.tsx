@@ -15,7 +15,11 @@ const CardContainer = () => {
     return (
         <div className='content-container'>
             <div className="card-container">
-                {(gifs || []).map(i => <Card gifUrl={i.images.original.url} id={i.id}/>)}
+                {
+                    gifs.length > 0
+                        ? (gifs || []).map(i => <Card gifUrl={i.images.original.url} id={i.id}/>)
+                        : <h1 className="card-container__warning-text">Nothing has been found</h1>
+                }
             </div>
         </div>
     )
