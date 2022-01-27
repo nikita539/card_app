@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ff1fdb5c-d224-4d8c-ae29-915b50dba5ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/card-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/gifsreducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/gifsreducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <workItem from="1643107339354" duration="6059000" />
       <workItem from="1643196612460" duration="11818000" />
       <workItem from="1643273388119" duration="8511000" />
-      <workItem from="1643282956446" duration="3786000" />
+      <workItem from="1643282956446" duration="6903000" />
     </task>
     <servers />
   </component>
@@ -62,10 +60,10 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1643206442762" />
-    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1643285636262">
+    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1643287154853">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1643285636262" />
+    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1643287154853" />
     <state x="147" y="108" key="DiffContextDialog" timestamp="1643285634783">
       <screen x="0" y="43" width="1536" height="821" />
     </state>

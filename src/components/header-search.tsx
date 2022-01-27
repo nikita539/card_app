@@ -8,7 +8,8 @@ const HeaderSearch = () => {
     const [search, setSearch] = useState<string>('')
     const onSearchGifs = async () => {
         apiMethods.getGifsSearch(search).then((res) => {
-            dispatch(getGifActionCreator(res.data))
+            dispatch(getGifActionCreator([]))
+            setTimeout(() => dispatch(getGifActionCreator(res.data)), 500)
             setSearch('')
         })
     }

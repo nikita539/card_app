@@ -15,13 +15,10 @@ const CardContainer = () => {
     return (
         <div className='content-container'>
             <div className="card-container">
-                {(gifs || []).map(i => <Card gifUrl={i.images.original.url}/>)}
+                {(gifs || []).map(i => <Card gifUrl={i.images.original.url} id={i.id}/>)}
             </div>
         </div>
     )
 }
 
 export default CardContainer;
-
-
-//                 {(gifs || []).map(i => <Card key={i} gifUrl={i.images.original.url}/>)}
