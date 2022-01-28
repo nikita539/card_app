@@ -1,7 +1,8 @@
-import React, {ChangeEvent, useState} from 'react'
+import React, {ChangeEvent, Dispatch, SetStateAction, useState} from 'react'
 import {useDispatch} from "react-redux";
 import { getGifActionCreator } from "../store/gifsreducer";
 import {apiMethods} from "../api";
+
 
 const InputSearch = () => {
     const dispatch = useDispatch()
