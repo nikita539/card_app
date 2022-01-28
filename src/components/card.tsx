@@ -5,10 +5,11 @@ import { useDispatch } from "react-redux";
 type cardPropsType = {
     gifUrl?: string
     id: string,
-    isLiked: boolean
+    isLiked: boolean,
+    title: string
 }
 
-const Card = ({gifUrl = '', id, isLiked}: cardPropsType) => {
+const Card = ({gifUrl = '', id, isLiked, title}: cardPropsType) => {
     const dispatch = useDispatch()
     const onDeleteCard = () => {
         dispatch(deleteGifActionType(id))
@@ -37,8 +38,7 @@ const Card = ({gifUrl = '', id, isLiked}: cardPropsType) => {
             </div>
             <img src={gifUrl} alt="Hello" className='gif'/>
             <div className="card__description">
-                <h1 className="card__title">Hello World</h1>
-                <p className="card__additional-text">afafagsdgsfhsdfhfdhdfhdfhjefhjf</p>
+                <h1 className="card__title">{title}</h1>
             </div>
         </div>
     )

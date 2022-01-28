@@ -17,6 +17,8 @@ const CardContainer = ({ showLiked }: cardContainerProps) => {
         apiMethods.getGifsSearch('Dog').then(response => dispatch(getGifActionCreator(response.data)))
     },[])
 
+    console.log(['Gifs',gifs])
+
     const sortedCards = useMemo(() => (
         showLiked ?
             gifs.map(i => { if(i.isLiked) return <Card {...i} key={i.id} gifUrl={i.images.original.url}/>})

@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ff1fdb5c-d224-4d8c-ae29-915b50dba5ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/card-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input-search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/toggle-switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toggle-switch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
       <workItem from="1643196612460" duration="11818000" />
       <workItem from="1643273388119" duration="8511000" />
       <workItem from="1643282956446" duration="8203000" />
-      <workItem from="1643368196178" duration="10162000" />
+      <workItem from="1643368196178" duration="11660000" />
     </task>
     <servers />
   </component>
