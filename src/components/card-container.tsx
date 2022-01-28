@@ -12,12 +12,13 @@ const CardContainer = () => {
     React.useEffect(() => {
         apiMethods.getGifsSearch('Dog').then(response => dispatch(getGifActionCreator(response.data)))
     },[])
+    console.log(['gifs',gifs])
     return (
         <div className='content-container'>
             <div className="card-container">
                 {
                     gifs.length > 0
-                        ? (gifs || []).map(i => <Card gifUrl={i.images.original.url} id={i.id}/>)
+                        ? (gifs || []).map(i => <Card key={i.id} gifUrl={i.images.original.url} id={i.id} {...i}/>)
                         : <h1 className="card-container__warning-text">Nothing has been found</h1>
                 }
             </div>

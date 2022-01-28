@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff1fdb5c-d224-4d8c-ae29-915b50dba5ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/toggle-switch.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/card-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/gifsreducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/gifsreducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,7 @@
       <workItem from="1643196612460" duration="11818000" />
       <workItem from="1643273388119" duration="8511000" />
       <workItem from="1643282956446" duration="8203000" />
+      <workItem from="1643368196178" duration="7825000" />
     </task>
     <servers />
   </component>
@@ -58,14 +64,14 @@
       <screen x="0" y="43" width="1536" height="821" />
     </state>
     <state x="499" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.43.1536.821@0.43.1536.821" timestamp="1643206442762" />
-    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1643291669312">
+    <state x="393" y="43" key="CommitChangelistDialog2" timestamp="1643296758001">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1643291669312" />
-    <state x="147" y="108" key="DiffContextDialog" timestamp="1643291667997">
+    <state x="393" y="43" key="CommitChangelistDialog2/0.43.1536.821@0.43.1536.821" timestamp="1643296758001" />
+    <state x="147" y="108" key="DiffContextDialog" timestamp="1643296756743">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
-    <state x="147" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1643291667997" />
+    <state x="147" y="108" key="DiffContextDialog/0.43.1536.821@0.43.1536.821" timestamp="1643296756743" />
     <state x="601" y="156" key="RollbackChangesDialog" timestamp="1643210347793">
       <screen x="0" y="43" width="1536" height="821" />
     </state>
