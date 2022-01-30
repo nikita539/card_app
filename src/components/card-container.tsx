@@ -25,11 +25,7 @@ const CardContainer = ({ showLiked }: cardContainerProps) => {
     return (
         <div className='content-container'>
             <div className="card-container">
-                {
-                    gifs.length > 0
-                        ? sortedCards
-                        : <h1 className="card-container__warning-text">Nothing has been found</h1>
-                }
+                {gifs.length > 0 && sortedCards}
             </div>
         </div>
     )
